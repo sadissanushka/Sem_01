@@ -26,33 +26,39 @@ When $A = B$, we say that $R$ is a **relation on $A$**.
 ---
 
 ### 🔍 Properties of Binary Relations (on set $A$)
+Homogeneous
 
-1. **Reflexive**
+1. **[[Reflexive]]**
+- Definition:
+A reflexive relation on a set is a relation where every element is related to itself.
+-In formal terms:
+A relation R on a set A is reflexive if for every element a in A, the pair (a, a) is in R.
 
    $$
    \forall a \in A,\quad (a, a) \in R
    $$
 
-2. **Symmetric**
-
+3. **[[Symmetric]]**
    $$
    \forall a, b \in A,\quad (a, b) \in R \Rightarrow (b, a) \in R
    $$
 
-3. **Antisymmetric**
+4. **[[Antisymmetric]]**
 
    $$
    \forall a, b \in A,\quad (a, b) \in R \land (b, a) \in R \Rightarrow a = b
    $$
 
-4. **Transitive**
+5. **[[Transitive]]**
 
    $$
    \forall a, b, c \in A,\quad (a, b) \in R \land (b, c) \in R \Rightarrow (a, c) \in R
    $$
 
 ---
-
+[[Combining relations]]
+[[Composition of relation]]
+---
 ### 🧩 Special Types of Relations
 
 * **Equivalence Relation**: Reflexive, symmetric, and transitive

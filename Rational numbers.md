@@ -9,6 +9,7 @@ Here's a well-structured **Obsidian note** on **Rational Numbers** with LaTeX fo
 The set of **rational numbers** is denoted by:
 
 $$\mathbb{Q} = \left\{ \frac{p}{q} \,\middle|\, p \in \mathbb{Z},\ q \in \mathbb{Z} \setminus \{0\} \right\}$$
+$$\mathbb{Q} = \left\{ \frac{p}{q} \,\middle|\, p ,\ q \in \mathbb{Z} ,  n\neq0 \right\}$$
 
 - Each rational number is a ratio of two integers where the denominator is **non-zero**.
     

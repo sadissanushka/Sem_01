@@ -6,16 +6,15 @@ Here's a detailed **Obsidian note** on **Relations on Sets**, with all formulas 
 
 ### 📌 Definition
 
-A **relation** RR from set AA to set BB is defined as a subset of the Cartesian product:
+A **relation** $R$ from set $A$ to set $B$ is defined as a subset of the Cartesian product of two set:
 
-R⊆A×BR \subseteq A \times B
+$R \subseteq A \times B$
 
-- If (a,b)∈R(a, b) \in R, we write:
+- If $(a, b) \in R$, we write:
     
+$a \mathrel{R} b$
 
-aRba \mathrel{R} b
-
-When A=BA = B, we say that RR is a **relation on the set AA**.
+When $A = B$, we say that $R$ is a **relation on the set $A$**.
 
 ---
 
@@ -34,9 +33,10 @@ R={(1,2),(2,3),(3,1)}R = \{(1, 2), (2, 3), (3, 1)\}
 ### 🔍 Properties of Relations on a Set AA
 
 1. **Reflexive**
-    
 
-∀a∈A,(a,a)∈R\forall a \in A,\quad (a, a) \in R
+    A relation r on set a 
+
+$$\forall a \in A,\quad (a, a) \in R$$
 
 2. **Symmetric**
     

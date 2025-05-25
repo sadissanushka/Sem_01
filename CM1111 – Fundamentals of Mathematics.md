@@ -1,41 +1,17 @@
 
+### 🔣 Symbols
+$\forall$ *For All*
+$\exists$ *There Exists*
+$\Rightarrow$ *implies 'implies to net Statement'*
+$\Leftrightarrow$ *If and Only*
 
 ---
 
 ## 📘 Sets and Functions
 
-### 🟦 Sets
-
-- **Definition**: A _set_ is a well-defined collection of distinct elements.
-    
-- Notation: A={1,2,3}A = \{1, 2, 3\}
-    
-
-#### Operations on Sets
-
-- **Union**:$A \cup B$
-    
-- **Intersection**: $A \cap B$
-    
-- **Set Difference**: A - B$
-    
-- **Complement**: $A^c$
-    
-- **Power Set**: $\mathcal{P}(A)$
-    
-- **Cartesian Product**: $A \times B$
-    
-
-#### Algebras of Sets
-
-- **Distributive Laws**:
-    
-$$A \cap (B \cup C) = (A \cap B) \cup (A \cap C) $$
-$$A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$$
-
----
 
 ### 🔢 Set of Numbers
+$$\mathbb{N} \subset \mathbb{Z} \subset\mathbb{Q} \subset\mathbb{R} \subset\mathbb{C}$$
 
 - [[Natural Numbers]]$$\mathbb{N}: Natural numbers$$
     
@@ -46,7 +22,74 @@ $$A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$$
 - [[Real numbers]]$$\mathbb{R}: Real numbers$$
     
 - [[Rational numbers]]$$\mathbb{C}: Complex numbers$$
+---
+
+### 🟦 Sets
+
+- **Definition**: A _set_ is a well-defined collection of distinct elements(Obj).
+	$B = \emptyset$ *Empty set*
     
+- Notation: 
+	$a \in S$  *"a is an element of S"*
+	$a \notin S$  *"a is not an element of S"*
+
+- Set building notation
+	$A = \{1, 2, 3\}$
+	$A = {x \in A, P(x)}$
+	$A = \{x \text{ is satisfine} P(x)\}$
+	
+	
+
+1. A set A Is a subset of B, $A \subset B$
+		if $a \in A \Rightarrow a \in B$
+2. Two set are equal, $A = B$
+		if $A \subset B$ and $B \subset A$
+3. A set A Is a **proper** subset of B, $A \subsetneq B$
+		if $A \subset B$ and $A \neq B$
+#### Operations on Sets
+
+- **Union**:$A \cup B$
+	$$A \cup B = \{x \mid x \in A \text{ or } x \in B\}$$
+
+- **Intersection**: $A \cap B$
+	$$A \cap B = \{x \mid x \in A \text{ and } x \in B\}$$
+    
+- **Set Difference**: $A - B$
+	$$A - B = \{x \in A \mid  x \notin B\}$$
+	
+- **Complement**: $A^c$
+    $$A^c = \{x : x \notin A \}$$
+    
+- **Power Set**: $\mathcal{P}(A)$
+    
+- **Cartesian Product**: $A \times B$
+    
+- **Disjoint**:
+	 $$A \cap B = \emptyset$$
+#### Algebras of Sets
+**De Morgan's Laws** in set theory relate the complement of unions and intersections of sets. They are:
+
+1. **Complement of a union**:
+    
+    $(A \cup B)^c = A^c \cap B^c$
+    
+    _The complement of the union is the intersection of the complements._
+	
+2. **Complement of an intersection**:
+    
+	$(A \cap B)^c = A^c \cup B^c$
+    
+    _The complement of the intersection is the union of the complements._
+    
+
+
+- **Distributive Laws**:
+    
+$$A \cap (B \cup C) = (A \cap B) \cup (A \cap C) $$
+$$A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$$
+
+---
+
 
 ---
 
